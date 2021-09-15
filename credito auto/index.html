@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <!--
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    -->
+    <title>Creditos automotrices</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title is-1 box">Creditos bonitos.</h1>
+        <div class="bordecito box image">
+            <img src="https://mapcity-zoom.s3.amazonaws.com/images/external/httpactualizacionesv05.prop360.clnexxosimagenes45386-101045386-2157215_1.jpg"
+                alt="nohaymano" class="is-rounded">
+        </div>
+        <form action="" name="formu">
+            <div class="columns box bordecito">
+                <div class="column">
+                    <label for="">su propiedad es nueva o usada?</label>
+                    <br>
+                    <input class="form-check-input" type="radio" name="casa" id="" value="radioNuevo" required>Nuevo
+                    <input class="form-check-input" type="radio" name="casa" id="" value="radioUsado" required>Usado
+                </div>
+                <div class="column">
+                    <label for="">sus valores son en peso o en uf?</label>
+                    <br>
+                    <input class="form-check-input" type="radio" name="radioValor" id="" value="radioUF" required>UF
+                    <input class="form-check-input" type="radio" name="radioValor" id="" value="Peso" required>Peso
+                </div>
+            </div>
+            <div class="columns">
+                <div class="bordecito box column">
+                    <label for=""> ingrese el monto total de la casa</label>
+                    <input class="form-control" type="text" name="valorCasa" id="txtValorCasa"
+                        placeholder="ejemplo 40000" required>
+                </div>
+                <div class="bordecito box column">
+                    <label for=""> ingrese el monto total del credito</label>
+                    <input class="form-control" type="text" name="valorCredito" id="txtCredito"
+                        placeholder="ejemplo 40000" required>
+                </div>
+                <div class="bordecito box column">
+                    <label for=""> años en los que pagará el crédito:</label>
+                    <div class="mb-3">
+                        <select class="form-select" name="years" id="years" required>
+                            <option value="1">1 año</option>
+                            <option value="5">5 años</option>
+                            <option value="10">10 años</option>
+                            <option value="20">20 años</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <input class="button is-inverted is-rounded" type="submit" value="Enviar Solicitud">
+        </form>
+    </div>
+    <script src="funciones.js"></script>
+</body>
+
+</html>

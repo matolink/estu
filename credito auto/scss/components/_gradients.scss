@@ -1,0 +1,25 @@
+h1{
+    font-size: 60px;
+    color: white;
+    border: 1px black solid;
+     background: $colorgradiente;
+     -webkit-background-clip: text;
+       -webkit-text-stroke: 1px $rojito;
+
+     color: transparent solid;
+}
+img{
+    border: 3px transparent solid;
+    background: $colorgradiente;
+}
+.bordecito{
+    border: 1px black solid;
+}
+.button{
+    background: $colorgradiente !important;
+    color: white;
+    border-color: black;
+}
+.box{
+    background: transparent;
+}

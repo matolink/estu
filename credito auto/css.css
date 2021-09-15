@@ -1,0 +1,30 @@
+h1 {
+  font-size: 60px;
+  color: white;
+  border: 1px black solid;
+  background: linear-gradient(90deg, #3a95b4 0%, #6dfd1d 50%, #fc45d3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 1px #7c54b142;
+  color: transparent solid; }
+
+img {
+  border: 3px transparent solid;
+  background: linear-gradient(90deg, #3a95b4 0%, #6dfd1d 50%, #fc45d3 100%); }
+
+.bordecito {
+  border: 1px black solid; }
+
+.button {
+  background: linear-gradient(90deg, #3a95b4 0%, #6dfd1d 50%, #fc45d3 100%) !important;
+  color: white;
+  border-color: black; }
+
+.box {
+  background: transparent; }
+
+.container {
+  text-align: center;
+  width: 50vw; }
+
+body {
+  background-color: #7c54b142; }
